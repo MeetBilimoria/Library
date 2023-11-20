@@ -1,0 +1,92 @@
+.abbg{
+   
+    height: 150vh;
+    width: 100vw;
+   background-color: lightblue;
+}
+.adcontainer{
+    color: white;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    position: absolute;
+    height: 80vh;
+ 
+    justify-content: center;
+    align-items: center;
+
+
+}
+.inputt{
+   
+    margin-left: 5vw;
+    padding-top: 5vh;
+   
+    
+}
+.inputt p{
+    font-size: 1.5vw;
+    
+    
+}
+.inputt input{
+    width: 80vw;
+    height: 7vh;
+    border-radius: 2vh;
+    border: none;
+}
+
+.inputt{
+   
+    margin-left: 5vw;
+
+}
+.inputt p{
+    
+    color: black;
+    padding-bottom: 1vh;
+}
+.inputt input{
+    width: 80vw;
+    height: 7vh;
+    border-radius: 2vh;
+    border: none;
+}
+.inputt input::placeholder {
+    color: grey;
+   padding-left: 2vw;
+}
+input{
+    padding-left: 1vw;
+}
+
+.add_book{
+    background-color: blue;
+    border: none;
+    margin-top: 5vh;
+    margin-left: 43vw;
+    height: 7vh;
+    width: 7vw;
+    font-size: 1.5vw;
+    border-radius: 2vh;
+    color: white;
+}
+.add_book:hover {
+    background-color: green;
+}
+.title{
+    
+ 
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+    font-size: 2vw;
+    color: darkmagenta;
+    font-weight: 600;
+}
+@media (max-width: 568px) {
+
+    .bookcontain{
+     
+        margin-top: -5vh;
+    }
+}

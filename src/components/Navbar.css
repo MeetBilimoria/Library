@@ -1,0 +1,79 @@
+
+.navbar{
+    width: 100vw;
+    height: 15vh;
+   background-color: black;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   border-bottom: 1px solid white;
+}
+
+.logo  {
+    font-size: 2vw;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    text-decoration: none;
+    color: white;
+}
+.menu{
+    
+    font-size: 2vw;
+    grid-template-columns: repeat(4,1fr);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.navlogout{
+
+    background-color: violet;
+    border: none;
+    margin-top: -10vh;
+    margin-left: 1vw;
+     width: 7vw;
+     height: 6vh;
+     border-radius: 2vh;
+     cursor: pointer;
+}
+.navlogout:hover{
+    background-color: red;
+}
+.books{
+    text-decoration: none;
+    color: white;
+}
+.home{
+    text-decoration: none;
+    color: white;
+}
+.menu .books:hover {
+    color: lightcoral; 
+}
+
+.menu .addbooks:hover {
+    color: lightcoral; 
+}
+.menu .home:hover {
+    color: lightcoral; 
+}
+
+.addbooks{
+    text-decoration: none;
+    color: white;
+}
+@media (max-width: 768px) {
+
+    
+    .logo{
+        
+        
+        margin-left: 1vw;
+        margin-top: 6vh;
+        font-size: 5vw;
+    }
+    .menu{
+        margin-right:2vw;
+        width: 60vw;
+        font-size: 4vw;
+    }
+}
